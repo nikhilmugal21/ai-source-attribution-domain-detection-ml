@@ -1,6 +1,47 @@
+# Virtual environments
 .venv/
+venv/
+env/
+
+# Python cache
+__pycache__/
+*.py[cod]
+*$py.class
+
+# macOS
+.DS_Store
+
+# Jupyter temporary files
+.ipynb_checkpoints/
+
+# IDE settings
+.vscode/
+.idea/
+
+# Environment variables and secrets
+.env
+.streamlit/secrets.toml
+
+# Logs and temporary files
+*.log
+*.tmp
+
+# Testing cache
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Do not ignore deployment source files
+!streamlit_app.py
+!requirements.txt
+!src/
+!src/**
+!models/
+!models/**.venv/
 venv/
 __pycache__/
 *.pyc
 .DS_Store
 .env
+.streamlit/secrets.toml
+.ipynb_checkpoints/
